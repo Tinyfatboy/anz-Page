@@ -1,0 +1,246 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+*::before, *::after{box-sizing: border-box;}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+}
+
+body{
+    word-wrap: break-word;
+    min-width: 320px;
+}
+
+div.banner{
+    border: 1px solid black;
+    position: relative;
+}
+
+div.banner::after{
+    z-index: -2;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(500deg, rgb(147, 199, 229) 0%, rgb(255, 255, 255) 100%)
+}   
+
+div.banner > div.headerWrapper{
+    padding: 10px 15px 0;
+    width: 100%;
+}
+
+nav.topBar{
+    background: #004165;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+nav.topBar > div.menuList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.menuList > a.logo{
+    padding: 9px 16px
+}
+
+div.menuList > a.logo > img{
+    width: 100px;
+    height: 40px;
+}
+
+div.menuList > div.itemList{
+    width: 290px;
+    height: 100%;
+}
+
+div.menuList > div.itemList > a{
+    color: white;
+    height: 100%;
+}
+
+nav.topBar > div.searchBar{
+
+}
+
+div.searchBar > form{
+    width: 390px;
+    padding-right: 35px;
+    display: flex;
+    align-items: center
+}
+
+form[name="search"] > input{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    width: 320px;
+    height: 38px;
+    padding: 8px 45px 8px 10px;
+}
+
+form[name="search"] > button{
+    width: 40px;
+    height: 38px;
+    border: none;
+    box-shadow: none;
+    background: #007DBA;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+div.infoWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.infoWrapper > div.welcome{
+    border: 1px solid black;
+    align-self: flex-start;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+div.welcome > div.countrySelect{
+    position: relative;
+}
+
+div.country{
+    padding: 5px 17px 5px 43px;
+    left: 16px;
+}
+
+div.country::before{
+    content: "";
+    display: block;
+    width: 22px;
+    height: 17px;
+    background-image: url("../img/flags_sprite.png");
+    background-repeat: no-repeat;
+    background-position: -121px -171px;
+    position: absolute;
+    left: 15px;
+}
+
+div.welcome > div.introduction{
+    width: 565px;
+    border: 1px solid red;
+    color: #004165;
+}
+
+div.introduction > h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -.025em;
+}
+
+div.introduction > h2{
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.02em;
+}
+
+div.introduction > span{
+    font-size: 0.87rem;
+    line-height: 1.25rem;
+    letter-spacing: -.01em;
+}
+
+div.introduction > a{
+    display: block;
+    width: 130px;
+    border: 1px solid #006BA1;
+    padding: .625rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+    color: #FFFFFF;
+    background: #008dd4;
+    border-radius: 3px;
+}
+
+div.infoWrapper > div.bannerImg{
+    width: 204px;
+    height: 300px;
+    margin-top: 21px;
+    border: 1px solid black;
+}
+
+div.infoWrapper > div.functionArea{
+    border: 1px solid black;
+    width: 268px;
+    height: 344px;
+    margin-right: 50px;
+}
+
+div.functionArea > .contactArea{
+    float: right;
+}
+
+div.contactArea > a{
+    text-align: center;
+    line-height: 1.375rem;
+    font-weight: 400;
+    color: #004165;
+}
+
+div.functionArea > div.login{
+    width: 100%;
+    height: 244px;
+    background: #efefef;
+    box-shadow: rgba(0,0,0,.15) 0 2px 5px 0;
+    margin-top: 30px;
+    color: #0072ac;
+    border-radius: 3px;
+}
+
+div.show > .showSection{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90vw;
+}
+
+div.showSection > section{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+div.showSection > section a{
+    display: block;
+}
+
+div.showSection > section img{
+    width: 167px;
+    height: 103px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+div.showSection > section:last-child img{
+    border: none;
+}
+
+
+
