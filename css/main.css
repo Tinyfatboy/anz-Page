@@ -163,7 +163,7 @@ div.introduction > h2{
 div.introduction > span{
     font-size: 0.87rem;
     line-height: 1.25rem;
-    letter-spacing: -.01em;
+    letter-spacing:-.01em
 }
 
 div.introduction > a{
@@ -219,6 +219,7 @@ div.show > .showSection{
     margin-right: auto;
     margin-left: auto;
     width: 90vw;
+    margin-top: 30px;
 }
 
 div.showSection > section{
@@ -227,8 +228,28 @@ div.showSection > section{
     justify-content: center;
 }
 
+section > div.textSection{
+
+}
+
+section > div.imgSection{
+    width: 167px;
+}
+
+section h4{
+    color: #004165;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.02em;
+}
+
 div.showSection > section a{
     display: block;
+    color: #0072ac;
+    letter-spacing: 0px;
+    line-height: 1.15em;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 div.showSection > section img{
