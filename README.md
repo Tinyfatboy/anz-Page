@@ -1,6 +1,6 @@
 ## ANZ-Page
 
-### Sorry, busy those days and didn't have enough time to finish responsive design @media）(max-width: 480px) and (max-width: 960px)
+### Sorry, busy those days and didn't have enough time to finish responsive design @media(max-width: 480px) and (max-width: 960px)
 
 ### Dropdown and Sildebar effect will be done further
 
