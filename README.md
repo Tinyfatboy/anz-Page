@@ -2,9 +2,9 @@
 
 ### Sorry, busy those days and didn't have enough time to finish responsive design @media）(max-width: 480px) and (max-width: 960px)
 
-###Dropdown and Sildebar effect will be done further
+### Dropdown and Sildebar effect will be done further
 
-###使用方法
+### 使用方法
 
 - download或者clone项目 $cd anz-Page-master 进入目录
 
