@@ -520,7 +520,13 @@ div.links  a.youtube{
     background-position: 0 -96px;
 }
 
+@media (max-width: 960px){
 
+}
+
+@media (max-width: 480px){
+    
+}
 
 
 
