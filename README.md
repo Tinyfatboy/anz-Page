@@ -4,6 +4,8 @@
 
 ### Dropdown and Sildebar effect will be done further
 
+### No updates since some reasons
+
 ### 使用方法
 
 - download或者clone项目 $cd anz-Page-master 进入目录
